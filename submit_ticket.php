@@ -25,6 +25,11 @@
         // grab email and described issue
         $email = $_POST['email'];
         $issue = $_POST['issue'];
+
+        // let the customer know we will get back to them
+        echo "<p>A customer service agent will reach out to you at $email soon</p>";
+
+        # add information to database
         $sql = "INSERT INTO help_tickets (email, issue) VALUES ('$email', '$issue')";
         $conn->query($sql);
 
