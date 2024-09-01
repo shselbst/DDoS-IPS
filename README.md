@@ -41,4 +41,4 @@ Any part of a web server with user-input that is not validated or normalized is 
 Attackers will attempt to insert Javascript enclosed in html tags through user-input to have it executed by the web browser. 
 The file linked [here](https://github.com/shselbst/DDoS-IPS/blob/main/xss_sol.sh) can be used as a tool to add this validation in your .php scripts so that attackers cannot have javascript executed. 
 
-# Fix citations and links to files
+
